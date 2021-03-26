@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body style="background: url(bg.jpg);">
+    <center>
+        <div>
+            <h2><b>Case Study</b>
+                <img src=case.png style="height: 100px; border-radius: 10px;">
+            </h2>
+        </div>
+
+
+        <div class="test_image_and_result">
+
+            <b>Test Images -</b><br>
+            <div><span>1.<img src="ac.jpg" class="image"></span>
+                <span>2.<img src="chair.jpg" class=" image"></span>
+                <span>3.<img src="clock.jpg" class=" image"></span>
+                <span>4.<img src="fan.jpg" class=" image"></span>
+                <span>5.<img src="fork.jpg" class="image"></span></div>
+            <div><span>6.<img src="glasses.jpg" class=" image"></span>
+                <span>7.<img src="mouse.jpg" class=" image"></span>
+                <span>8.<img src="phone.jpg" class=" image"></span>
+                <span>9.<img src="remote.jpg" class=" image"></span>
+                <span>10.<img src="water.jpg" class="image"></span></div>
+
+            <u><h5>Output on <b>Wolfran Project</b></u> -
+                <span>1.Printer, 2.Chair, 3.Wall clock, 4., 5.Kitchen utensil,<br> 6.Glasses, 7.Computer mouse, 8.Cell phone, 9.Electronics, 10</span>
+            </h5>
+            <u><h5>Output on <b>Mobilenet Model</b></u> -
+                <span></span>
+            </h5>
+            <div class="mini_result">
+                <h4 style="text-align: center;">Result - </h4>
+                <hr style="color: white; height: 2px; ">
+                <h4></h4>
+            </div>
+        </div>
+
+
+
+    </center>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
